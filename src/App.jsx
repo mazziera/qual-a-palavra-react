@@ -23,13 +23,13 @@ function App() {
   //controlando o progresso e estagio do jogo
   const [estagioJogo, setEstagioJogo] = useState(estagios[0].name) //iniciando com o primeiro objeto do array, o inicio.
 
-  // armazenando o array de objetos das palavras que serão advinhadas numa variavel 
+  // armazenando o array de objetos das palavras que serão advinhadas, numa variavel 
   const [palavras] = useState(wordsArray); 
 
   //states
   const [categoriaEscolhida, setCategoriaEscolhida] = useState(" ");
   const [palavraEscolhida, setPalavraEscolhida] = useState(" ");
-  const [letraEscolhida, setLetraEscolhida]= useState([]);
+  const [letraEscolhida, setLetraEscolhida]= useState([]); //sera um array de letras
 
   //escolher a palavra e categoria
   const handleEscolherPalavraECategoria = () => {
@@ -51,12 +51,9 @@ function App() {
     //função que obtém uma categoria e palavra aleatoriamente
     const {categoria, palavra} = handleEscolherPalavraECategoria()
 
-    //obter cada letra da palavra obtida e
+    //obter cada letra da palavra obtida
     let letras = palavra.split("") //separando as letras da palavra
-    letras = letras.map( (letra) => letra.toLowerCase()) // transformando todas as letras em minuscula
-    
-    console.log(categoria, palavra);
-    console.log(letras);
+    letras = letras.map( (letra) => letra.toLowerCase()) // iterando cada letra para transformar todas em minuscula
 
     //atualiza o estado do componente
     setCategoriaEscolhida(categoria);
@@ -70,12 +67,12 @@ function App() {
   //verificar a letra que o usuario escolher
   const handleVerificarLetra = () => {
     setEstagioJogo(estagios[2].name)
-  }
+  };
 
   //reiniciar jogo
   const handleReiniciar = () => {
     setEstagioJogo(estagios[0].name)
-  }
+  };
 
   return (
     <>
