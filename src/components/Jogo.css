@@ -13,7 +13,7 @@
 .palavra_container{
     padding: 1.5em;
     margin: 1.5em;
-    border:  25px solid #ECFA00;
+    border:  10px solid #ECFA00;
     display: flex; /*letras ficarão uma do lado da outra */
 }
 
