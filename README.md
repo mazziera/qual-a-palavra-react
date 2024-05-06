@@ -1,13 +1,12 @@
 # Qual a palavra?
 
- imagem desktop preview
+ ![](./public/desktop-preview.jpg)
 
 ## Visão Geral
 
 - [Visão geral](#visão-geral)
   - [O Projeto](#o-projeto)
   - [Instalação](#instalação)
-  - [Como Usar](#como-usar)
   - [Contribuição](#contribuição)
   - [O que aprendi?](#o-que-aprendi)
   - [Links](#links)
@@ -39,16 +38,17 @@
         npm run build: Constrói a aplicação para produção.
         npm run serve: Serve a aplicação construída localmente.
 
-## Como Usar
-    video do jogo
-
-### Contribuição
+## Contribuição
 - Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## O que aprendi?
+
+- Neste projeto pude por em prática, conceitos introdutórios e básicos de React, como a sintática de JSX, componentização e importação de elementos html, utilizar diferentes hooks e também JavaScript puro, com funções e lógica de programação.
 
 
 ## Links
-- Repositório: 
-- Deploy: 
+- Repositório: https://github.com/mazziera/qual-a-palavra-react
+- Deploy: https://qual-a-palavra-react.vercel.app/
 
 ## Contato
 
