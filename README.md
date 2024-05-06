@@ -20,7 +20,7 @@
 ## Instalação
  - Certifique-se de ter o Node.js instalado em sua máquina.
 
-    ### Clonar Repositorio
+    ### Clonar Repositório
 
         git clone https://github.com/mazziera/qual-a-palavra-react
     
@@ -33,7 +33,7 @@
     ### Inicializar o servidor de desenvolvimento
         npm run dev
 
-    ### Comandos Disponiveis
+    ### Comandos Disponíveis
         npm run dev: Inicia o servidor de desenvolvimento.
         npm run build: Constrói a aplicação para produção.
         npm run serve: Serve a aplicação construída localmente.
@@ -43,7 +43,7 @@
 
 ## O que aprendi?
 
-- Neste projeto pude por em prática, conceitos introdutórios e básicos de React, como a sintática de JSX, componentização e importação de elementos html, utilizar diferentes hooks e também JavaScript puro, com funções e lógica de programação.
+- Neste projeto pude por em prática, conceitos introdutórios e básicos de React, como a sintaxe JSX, componentização e importação de elementos html, utilizar diferentes hooks e também JavaScript puro, com funções e lógica de programação.
 
 
 ## Links
